@@ -1,0 +1,88 @@
+body {
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+   margin: 0;
+   padding: 0;
+   background-color: rgb(243, 243, 147);
+}
+h1{
+   color: white;
+}
+.container {
+   max-width: 600px;
+   margin: 100px auto;
+   padding: 20px;
+   background-color:rgb(236, 191, 109);
+   border-radius: 10px;
+}
+
+header {
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.summary p {
+   margin: 5px 0;
+}
+
+.entry-form {
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+   margin-bottom: 20px;
+}
+
+.entry-form input,
+.entry-form select,
+.entry-form button {
+   padding: 10px;
+   border: 1px solid #ddd;
+   border-radius: 5px;
+   font-size: 16px;
+}
+
+.entry-form button {
+   background-color: rgb(22, 234, 146);
+   border: none;
+   cursor: pointer;
+}
+
+.entry-form button:hover {
+   background-color: rgb(142, 185, 142);
+}
+
+.filters {
+   text-align: center;
+   margin-bottom: 20px;
+}
+
+.filters label {
+   margin: 0 10px;
+}
+
+.entries ul {
+   list-style-type: none;
+   padding: 0;
+}
+
+.entries li {
+   display: flex;
+   flex-direction: space-between;
+   align-items: center;
+   padding: 10px;
+   background-color: salmon;
+   margin-bottom: 10px;
+   border-radius: 5px;
+}
+
+.entries button {
+   background-color: cadetblue;
+   color: white;
+   border: none;
+   padding: 5px 10px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+
+.entries button:hover {
+   background-color: gold;
+}
